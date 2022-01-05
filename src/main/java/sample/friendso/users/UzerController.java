@@ -22,7 +22,7 @@ public class UzerController {
     }
 
     private Map<String, Object> wrapResponse(Object resp){
-        return Map.of("dataFail", resp);
+        return Map.of("data", resp);
     }
 
 }
